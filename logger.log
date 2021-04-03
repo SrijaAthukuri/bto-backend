@@ -1,0 +1,896 @@
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Sun Nov 29 2020 16:28:30 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8576[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49889280[39m,
+      heapTotal: [33m22528000[39m,
+      heapUsed: [33m19389736[39m,
+      external: [33m1637168[39m,
+      arrayBuffers: [33m121228[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m853058[39m },
+  trace: [
+    {
+      column: [33m19[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m297[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m243[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:297:19'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:243:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Sun Nov 29 2020 16:28:30 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8576[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50569216[39m,
+      heapTotal: [33m22528000[39m,
+      heapUsed: [33m19542416[39m,
+      external: [33m1637232[39m,
+      arrayBuffers: [33m121252[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m853058[39m },
+  trace: [
+    {
+      column: [33m19[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m297[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m243[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:297:19'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:243:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Sun Nov 29 2020 16:28:30 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8576[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50573312[39m,
+      heapTotal: [33m22528000[39m,
+      heapUsed: [33m19611280[39m,
+      external: [33m1637232[39m,
+      arrayBuffers: [33m121252[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m853058[39m },
+  trace: [
+    {
+      column: [33m19[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m297[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m243[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:297:19'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:243:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Sun Nov 29 2020 16:28:30 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8576[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50577408[39m,
+      heapTotal: [33m22528000[39m,
+      heapUsed: [33m19676272[39m,
+      external: [33m1637232[39m,
+      arrayBuffers: [33m121252[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m853058[39m },
+  trace: [
+    {
+      column: [33m19[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m297[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m243[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:297:19'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:243:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: response is not defined 
+{
+  date: [32m'Wed Mar 17 2021 18:12:14 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m20048[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49618944[39m,
+      heapTotal: [33m20692992[39m,
+      heapUsed: [33m19117552[39m,
+      external: [33m1637247[39m,
+      arrayBuffers: [33m121307[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m203344[39m },
+  trace: [
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m383[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m247[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: response is not defined'[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:383:3'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:247:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: response is not defined 
+{
+  date: [32m'Wed Mar 17 2021 18:12:14 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m20048[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50282496[39m,
+      heapTotal: [33m20692992[39m,
+      heapUsed: [33m19260072[39m,
+      external: [33m1637311[39m,
+      arrayBuffers: [33m121331[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m203344[39m },
+  trace: [
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m383[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m247[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: response is not defined'[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:383:3'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:247:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: response is not defined 
+{
+  date: [32m'Wed Mar 17 2021 18:12:14 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m20048[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50343936[39m,
+      heapTotal: [33m20692992[39m,
+      heapUsed: [33m19327680[39m,
+      external: [33m1637311[39m,
+      arrayBuffers: [33m121331[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m203344[39m },
+  trace: [
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m383[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m247[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: response is not defined'[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:383:3'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:247:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: response is not defined 
+{
+  date: [32m'Wed Mar 17 2021 18:12:14 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m20048[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.19.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50409472[39m,
+      heapTotal: [33m20955136[39m,
+      heapUsed: [33m19392624[39m,
+      external: [33m1637311[39m,
+      arrayBuffers: [33m121331[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m203344[39m },
+  trace: [
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m383[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m247[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: response is not defined'[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:383:3'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\routes\\users.js:247:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\backend-queA\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:15:50 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m13736[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m74604544[39m,
+      heapTotal: [33m56086528[39m,
+      heapUsed: [33m27389368[39m,
+      external: [33m1670989[39m,
+      arrayBuffers: [33m147166[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7142[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:15:50 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m13736[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m75337728[39m,
+      heapTotal: [33m56086528[39m,
+      heapUsed: [33m27533928[39m,
+      external: [33m1671053[39m,
+      arrayBuffers: [33m147190[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7142[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:15:50 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m13736[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m75341824[39m,
+      heapTotal: [33m56086528[39m,
+      heapUsed: [33m27606144[39m,
+      external: [33m1671053[39m,
+      arrayBuffers: [33m147190[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7142[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:15:50 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m13736[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m75341824[39m,
+      heapTotal: [33m56086528[39m,
+      heapUsed: [33m27674552[39m,
+      external: [33m1671053[39m,
+      arrayBuffers: [33m147190[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7142[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:17:02 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m14424[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m50720768[39m,
+      heapTotal: [33m24625152[39m,
+      heapUsed: [33m22685288[39m,
+      external: [33m1660832[39m,
+      arrayBuffers: [33m138971[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7214[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:17:02 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m14424[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m51548160[39m,
+      heapTotal: [33m24625152[39m,
+      heapUsed: [33m22833336[39m,
+      external: [33m1660896[39m,
+      arrayBuffers: [33m138995[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7214[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:17:02 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m14424[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m51687424[39m,
+      heapTotal: [33m24625152[39m,
+      heapUsed: [33m22973984[39m,
+      external: [33m1660896[39m,
+      arrayBuffers: [33m138995[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7214[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot access 'user' before initialization 
+{
+  date: [32m'Tue Mar 23 2021 10:17:02 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m14424[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend'[39m,
+    execPath: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+    version: [32m'v12.21.0'[39m,
+    argv: [
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\node\\bin\\node.exe'[39m,
+      [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\bin\\www'[39m
+    ],
+    memoryUsage: {
+      rss: [33m51617792[39m,
+      heapTotal: [33m24625152[39m,
+      heapUsed: [33m22905552[39m,
+      external: [33m1660896[39m,
+      arrayBuffers: [33m138995[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m7214[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m57[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m3[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js'[39m,
+      function: [1mnull[22m,
+      line: [33m46[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js'[39m,
+      function: [32m'Statement.replacement'[39m,
+      line: [33m25[39m,
+      method: [32m'replacement'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"ReferenceError: Cannot access 'user' before initialization"[39m,
+    [32m'    at C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:57:15'[39m,
+    [32m'    at Statement.<anonymous> (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\routes\\users.js:46:3)'[39m,
+    [32m'    at Statement.replacement (C:\\Users\\HP\\OneDrive\\Desktop\\bto\\bto-backend\\node_modules\\sqlite3\\lib\\trace.js:25:27)'[39m
+  ]
+}
